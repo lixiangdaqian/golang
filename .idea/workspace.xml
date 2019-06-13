@@ -9,13 +9,58 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/golang$TestFbnacci_in_fibonacci_test_go.out" NAME="TestFbnacci in fibonacci_test.go Coverage Results" MODIFIED="1560438630815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hello_world.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hello_world.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch1/hello_world.go">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="try_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch2/try_test.go">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fibonacci_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch2/fibonacci_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#18#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="const_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch2/const_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="type_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch3/type_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+              <folding>
+                <element signature="e#18#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,6 +82,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ch1/hello_world.go" />
+        <option value="$PROJECT_DIR$/src/ch2/try_test.go" />
+        <option value="$PROJECT_DIR$/src/ch2/fibonacci_test.go" />
+        <option value="$PROJECT_DIR$/src/ch2/const_test.go" />
+        <option value="$PROJECT_DIR$/src/ch3/type_test.go" />
       </list>
     </option>
   </component>
@@ -49,11 +98,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -77,7 +125,13 @@
               <item name="golang" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -106,32 +160,118 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="go build hello_world.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestString in type_test.go">
+    <configuration name="TestConstTry1 in const_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/src/ch2" />
       <go_parameters value="-i" />
+      <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/ch1/hello_world.go" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch2/const_test.go" />
+      <pattern value="^TestConstTry1$" />
     </configuration>
+    <configuration name="TestDataType in type_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$/src/ch3" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch3/type_test.go" />
+      <pattern value="^TestDataType$" />
+    </configuration>
+    <configuration name="TestPoint in type_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$/src/ch3" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch3/type_test.go" />
+      <pattern value="^TestPoint$" />
+    </configuration>
+    <configuration name="TestPreDefine in type_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$/src/ch3" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch3/type_test.go" />
+      <pattern value="^TestPreDefine$" />
+    </configuration>
+    <configuration name="TestString in type_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$/src/ch3" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch3/type_test.go" />
+      <pattern value="^TestString$" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Test.TestConstTry1 in const_test.go" />
+      <item itemvalue="Go Test.TestDataType in type_test.go" />
+      <item itemvalue="Go Test.TestPreDefine in type_test.go" />
+      <item itemvalue="Go Test.TestPoint in type_test.go" />
+      <item itemvalue="Go Test.TestString in type_test.go" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build hello_world.go" />
+        <item itemvalue="Go Test.TestString in type_test.go" />
+        <item itemvalue="Go Test.TestPoint in type_test.go" />
+        <item itemvalue="Go Test.TestPreDefine in type_test.go" />
+        <item itemvalue="Go Test.TestDataType in type_test.go" />
+        <item itemvalue="Go Test.TestConstTry1 in const_test.go" />
       </list>
     </recent_temporary>
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestConstTry1_in_const_test_go - 2019.06.13 at 23h 23m 10s.xml">
+      <configuration name="TestConstTry1 in const_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDataType_in_type_test_go - 2019.06.13 at 23h 31m 55s.xml">
+      <configuration name="TestDataType in type_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDataType_in_type_test_go - 2019.06.13 at 23h 33m 40s.xml">
+      <configuration name="TestDataType in type_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPreDefine_in_type_test_go - 2019.06.13 at 23h 34m 48s.xml">
+      <configuration name="TestPreDefine in type_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPreDefine_in_type_test_go - 2019.06.13 at 23h 34m 59s.xml">
+      <configuration name="TestPreDefine in type_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPoint_in_type_test_go - 2019.06.13 at 23h 36m 00s.xml">
+      <configuration name="TestPoint in type_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPoint_in_type_test_go - 2019.06.13 at 23h 36m 34s.xml">
+      <configuration name="TestPoint in type_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestString_in_type_test_go - 2019.06.13 at 23h 37m 35s.xml">
+      <configuration name="TestString in type_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestString_in_type_test_go - 2019.06.13 at 23h 38m 27s.xml">
+      <configuration name="TestString in type_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestString_in_type_test_go - 2019.06.13 at 23h 39m 09s.xml">
+      <configuration name="TestString in type_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1036" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22129436" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33701658" />
       <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32985386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -151,11 +291,50 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ch1/hello_world.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch2/try_test.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch2/fibonacci_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#18#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch2/const_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch3/type_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding>
+            <element signature="e#18#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
