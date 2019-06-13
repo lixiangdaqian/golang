@@ -4,8 +4,6 @@ import (
 	"testing"
 )
 
-
-
 func TestFbnacci(t *testing.T) {
 	var a, b = 1, 1
 	t.Log(a)

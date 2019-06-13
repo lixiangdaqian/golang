@@ -1,8 +1,8 @@
 package typ_test
 
 import (
-	"testing"
 	"math"
+	"testing"
 )
 
 type MyInt int64
@@ -21,8 +21,8 @@ func TestPreDefine(t *testing.T) {
 }
 
 /**
- 指针不支持任何运算
- */
+指针不支持任何运算
+*/
 func TestPoint(t *testing.T) {
 	a := 1
 	point := &a
@@ -32,6 +32,6 @@ func TestPoint(t *testing.T) {
 
 func TestString(t *testing.T) {
 	var string string
-	t.Log("*"+string+"*")
+	t.Log("*" + string + "*")
 	t.Log(len(string))
 }

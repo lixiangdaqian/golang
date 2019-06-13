@@ -3,7 +3,7 @@ package try_test
 import "testing"
 
 const (
-	Monday    = iota + 1
+	Monday = iota + 1
 	Tuesday
 	Wednesday
 	Thursday
@@ -13,7 +13,7 @@ const (
 )
 
 const (
-	Readable  = 1 << iota
+	Readable = 1 << iota
 	Writable
 	Execuable
 )
@@ -25,4 +25,5 @@ func TestConst(t *testing.T) {
 func TestConstTry1(t *testing.T) {
 	a := 8
 	t.Log(a&Readable == Readable, a&Writable == Writable, a&Execuable == Execuable)
+
 }
