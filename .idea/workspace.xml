@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="" />
+    <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch7/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch7/slice_test.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +56,8 @@
       <file leaf-file-name="slice_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch7/slice_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="262">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -129,7 +132,7 @@
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="1462" />
-    <option name="height" value="1578" />
+    <option name="height" value="1202" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -182,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSliceInit in slice_test.go">
+  <component name="RunManager" selected="Go Test.TestSliceDefine in slice_test.go">
     <configuration name="TestArr in arr_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
       <working_directory value="$PROJECT_DIR$/src/ch6" />
@@ -213,15 +216,15 @@
       <filePath value="$PROJECT_DIR$/src/ch6/arr_test.go" />
       <pattern value="^TestArrSec$" />
     </configuration>
-    <configuration name="TestConstTry1 in compute_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSliceDefine in slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch4" />
+      <working_directory value="$PROJECT_DIR$/src/ch7" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch4/compute_test.go" />
-      <pattern value="^TestConstTry1$" />
+      <filePath value="$PROJECT_DIR$/src/ch7/slice_test.go" />
+      <pattern value="^TestSliceDefine$" />
     </configuration>
     <configuration name="TestSliceInit in slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
@@ -234,65 +237,65 @@
       <pattern value="^TestSliceInit$" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.TestConstTry1 in compute_test.go" />
       <item itemvalue="Go Test.TestArr in arr_test.go" />
       <item itemvalue="Go Test.TestArrRange in arr_test.go" />
       <item itemvalue="Go Test.TestArrSec in arr_test.go" />
       <item itemvalue="Go Test.TestSliceInit in slice_test.go" />
+      <item itemvalue="Go Test.TestSliceDefine in slice_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSliceDefine in slice_test.go" />
         <item itemvalue="Go Test.TestSliceInit in slice_test.go" />
         <item itemvalue="Go Test.TestArrSec in arr_test.go" />
         <item itemvalue="Go Test.TestArrRange in arr_test.go" />
         <item itemvalue="Go Test.TestArr in arr_test.go" />
-        <item itemvalue="Go Test.TestConstTry1 in compute_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArr_in_arr_test_go - 2019.06.19 at 16h 14m 37s.xml">
-      <configuration name="TestArr in arr_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 39m 36s.xml">
+      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrRange_in_arr_test_go - 2019.06.19 at 16h 17m 58s.xml">
-      <configuration name="TestArrRange in arr_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 39m 49s.xml">
+      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrRange_in_arr_test_go - 2019.06.19 at 16h 19m 40s.xml">
-      <configuration name="TestArrRange in arr_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 40m 19s.xml">
+      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrRange_in_arr_test_go - 2019.06.19 at 16h 20m 06s.xml">
-      <configuration name="TestArrRange in arr_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 40m 32s.xml">
+      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrRange_in_arr_test_go - 2019.06.19 at 16h 20m 44s.xml">
-      <configuration name="TestArrRange in arr_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 42m 47s.xml">
+      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrSec_in_arr_test_go - 2019.06.19 at 16h 22m 59s.xml">
-      <configuration name="TestArrSec in arr_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 42m 55s.xml">
+      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceInit_in_slice_test_go - 2019.06.19 at 16h 34m 58s.xml">
-      <configuration name="TestSliceInit in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 43m 11s.xml">
+      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceInit_in_slice_test_go - 2019.06.19 at 16h 38m 53s.xml">
-      <configuration name="TestSliceInit in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 43m 44s.xml">
+      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceInit_in_slice_test_go - 2019.06.19 at 16h 39m 43s.xml">
-      <configuration name="TestSliceInit in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 44m 12s.xml">
+      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceInit_in_slice_test_go - 2019.06.19 at 16h 41m 12s.xml">
-      <configuration name="TestSliceInit in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 44m 25s.xml">
+      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1657545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1657545" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="LuaJ" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33559322" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2677966" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -419,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch7/slice_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="262">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
