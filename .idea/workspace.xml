@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch7/slice_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/golang$TestNotExistKeys_in_map_test_go.out" NAME="TestNotExistKeys in map_test.go Coverage Results" MODIFIED="1561086255157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/golang$TestFbnacci_in_fibonacci_test_go.out" NAME="TestFbnacci in fibonacci_test.go Coverage Results" MODIFIED="1560438630815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
@@ -53,11 +51,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slice_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="slice_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch7/slice_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
               <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch8/map_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch9/map_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -116,6 +132,8 @@
         <option value="$PROJECT_DIR$/src/ch2/fibonacci_test.go" />
         <option value="$PROJECT_DIR$/src/ch6/arr_test.go" />
         <option value="$PROJECT_DIR$/src/ch7/slice_test.go" />
+        <option value="$PROJECT_DIR$/src/ch8/map_test.go" />
+        <option value="$PROJECT_DIR$/src/ch9/map_test.go" />
       </list>
     </option>
   </component>
@@ -158,6 +176,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ch7" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch9" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -185,120 +215,121 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSliceDefine in slice_test.go">
-    <configuration name="TestArr in arr_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestMapSet in map_test.go">
+    <configuration name="TestInitMap in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch6" />
+      <working_directory value="$PROJECT_DIR$/src/ch8" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch6/arr_test.go" />
-      <pattern value="^TestArr$" />
+      <filePath value="$PROJECT_DIR$/src/ch8/map_test.go" />
+      <pattern value="^TestInitMap$" />
     </configuration>
-    <configuration name="TestArrRange in arr_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMapRange in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch6" />
+      <working_directory value="$PROJECT_DIR$/src/ch8" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch6/arr_test.go" />
-      <pattern value="^TestArrRange$" />
+      <filePath value="$PROJECT_DIR$/src/ch8/map_test.go" />
+      <pattern value="^TestMapRange$" />
     </configuration>
-    <configuration name="TestArrSec in arr_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMapSet in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch6" />
+      <working_directory value="$PROJECT_DIR$/src/ch9" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch6/arr_test.go" />
-      <pattern value="^TestArrSec$" />
+      <filePath value="$PROJECT_DIR$/src/ch9/map_test.go" />
+      <pattern value="^TestMapSet$" />
     </configuration>
-    <configuration name="TestSliceDefine in slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMapWithFunValue in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch7" />
+      <working_directory value="$PROJECT_DIR$/src/ch9" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch7/slice_test.go" />
-      <pattern value="^TestSliceDefine$" />
+      <filePath value="$PROJECT_DIR$/src/ch9/map_test.go" />
+      <pattern value="^TestMapWithFunValue$" />
     </configuration>
-    <configuration name="TestSliceInit in slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNotExistKeys in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch7" />
+      <working_directory value="$PROJECT_DIR$/src/ch8" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch7/slice_test.go" />
-      <pattern value="^TestSliceInit$" />
+      <filePath value="$PROJECT_DIR$/src/ch8/map_test.go" />
+      <pattern value="^TestNotExistKeys$" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.TestArr in arr_test.go" />
-      <item itemvalue="Go Test.TestArrRange in arr_test.go" />
-      <item itemvalue="Go Test.TestArrSec in arr_test.go" />
-      <item itemvalue="Go Test.TestSliceInit in slice_test.go" />
-      <item itemvalue="Go Test.TestSliceDefine in slice_test.go" />
+      <item itemvalue="Go Test.TestInitMap in map_test.go" />
+      <item itemvalue="Go Test.TestNotExistKeys in map_test.go" />
+      <item itemvalue="Go Test.TestMapRange in map_test.go" />
+      <item itemvalue="Go Test.TestMapWithFunValue in map_test.go" />
+      <item itemvalue="Go Test.TestMapSet in map_test.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSliceDefine in slice_test.go" />
-        <item itemvalue="Go Test.TestSliceInit in slice_test.go" />
-        <item itemvalue="Go Test.TestArrSec in arr_test.go" />
-        <item itemvalue="Go Test.TestArrRange in arr_test.go" />
-        <item itemvalue="Go Test.TestArr in arr_test.go" />
+        <item itemvalue="Go Test.TestMapSet in map_test.go" />
+        <item itemvalue="Go Test.TestMapWithFunValue in map_test.go" />
+        <item itemvalue="Go Test.TestMapRange in map_test.go" />
+        <item itemvalue="Go Test.TestNotExistKeys in map_test.go" />
+        <item itemvalue="Go Test.TestInitMap in map_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 39m 36s.xml">
-      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestInitMap_in_map_test_go - 2019.06.21 at 10h 59m 08s.xml">
+      <configuration name="TestInitMap in map_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 39m 49s.xml">
-      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNotExistKeys_in_map_test_go - 2019.06.21 at 11h 02m 52s.xml">
+      <configuration name="TestNotExistKeys in map_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 40m 19s.xml">
-      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNotExistKeys_in_map_test_go - 2019.06.21 at 11h 04m 05s.xml">
+      <configuration name="TestNotExistKeys in map_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 40m 32s.xml">
-      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNotExistKeys_in_map_test_go - 2019.06.21 at 11h 04m 17s.xml">
+      <configuration name="TestNotExistKeys in map_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 42m 47s.xml">
-      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNotExistKeys_in_map_test_go - 2019.06.21 at 11h 04m 36s.xml">
+      <configuration name="TestNotExistKeys in map_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 42m 55s.xml">
-      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNotExistKeys_in_map_test_go - 2019.06.21 at 11h 05m 58s.xml">
+      <configuration name="TestNotExistKeys in map_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 43m 11s.xml">
-      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapRange_in_map_test_go - 2019.06.21 at 11h 08m 09s.xml">
+      <configuration name="TestMapRange in map_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 43m 44s.xml">
-      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapWithFunValue_in_map_test_go - 2019.06.21 at 11h 17m 39s.xml">
+      <configuration name="TestMapWithFunValue in map_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 44m 12s.xml">
-      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSet_in_map_test_go - 2019.06.21 at 11h 20m 07s.xml">
+      <configuration name="TestMapSet in map_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceDefine_in_slice_test_go - 2019.06.21 at 10h 44m 25s.xml">
-      <configuration name="TestSliceDefine in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMapSet_in_map_test_go - 2019.06.21 at 11h 24m 45s.xml">
+      <configuration name="TestMapSet in map_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1657545" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="LuaJ" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2677966" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42881355" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3291634" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1657545" />
+      <window_info anchor="right" id="LuaJ" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,7 +339,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32985386" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,6 +454,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch8/map_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch9/map_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
     </entry>
