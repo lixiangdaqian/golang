@@ -19,6 +19,7 @@ func (goP *GoPorgrammer)WriteHelloWorld() string  {
 }
 
 func TestTypeInter(t *testing.T)  {
+	//其实利用了动态语言的鸭子类型 duck type
 	var p Programmer
 	p = new(GoPorgrammer)
 	t.Log(p.WriteHelloWorld())
