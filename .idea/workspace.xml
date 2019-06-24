@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="" />
+    <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch10/string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch10/string_test.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +75,11 @@
       <file leaf-file-name="string_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch10/string_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="207">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="e#19#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,12 +177,6 @@
               <item name="golang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch10" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -204,17 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestStringInit in string_test.go">
-    <configuration name="TestMapRange in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch8" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch8/map_test.go" />
-      <pattern value="^TestMapRange$" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestStringVert in string_test.go">
     <configuration name="TestMapSet in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
       <working_directory value="$PROJECT_DIR$/src/ch9" />
@@ -235,15 +225,15 @@
       <filePath value="$PROJECT_DIR$/src/ch9/map_test.go" />
       <pattern value="^TestMapWithFunValue$" />
     </configuration>
-    <configuration name="TestNotExistKeys in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStringFunc in string_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch8" />
+      <working_directory value="$PROJECT_DIR$/src/ch10" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch8/map_test.go" />
-      <pattern value="^TestNotExistKeys$" />
+      <filePath value="$PROJECT_DIR$/src/ch10/string_test.go" />
+      <pattern value="^TestStringFunc$" />
     </configuration>
     <configuration name="TestStringInit in string_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
@@ -255,36 +245,34 @@
       <filePath value="$PROJECT_DIR$/src/ch10/string_test.go" />
       <pattern value="^TestStringInit$" />
     </configuration>
+    <configuration name="TestStringVert in string_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$/src/ch10" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch10/string_test.go" />
+      <pattern value="^TestStringVert$" />
+    </configuration>
     <list>
-      <item itemvalue="Go Test.TestNotExistKeys in map_test.go" />
-      <item itemvalue="Go Test.TestMapRange in map_test.go" />
       <item itemvalue="Go Test.TestMapWithFunValue in map_test.go" />
       <item itemvalue="Go Test.TestMapSet in map_test.go" />
       <item itemvalue="Go Test.TestStringInit in string_test.go" />
+      <item itemvalue="Go Test.TestStringFunc in string_test.go" />
+      <item itemvalue="Go Test.TestStringVert in string_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestStringVert in string_test.go" />
+        <item itemvalue="Go Test.TestStringFunc in string_test.go" />
         <item itemvalue="Go Test.TestStringInit in string_test.go" />
         <item itemvalue="Go Test.TestMapSet in map_test.go" />
         <item itemvalue="Go Test.TestMapWithFunValue in map_test.go" />
-        <item itemvalue="Go Test.TestMapRange in map_test.go" />
-        <item itemvalue="Go Test.TestNotExistKeys in map_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNotExistKeys_in_map_test_go - 2019.06.21 at 11h 05m 58s.xml">
-      <configuration name="TestNotExistKeys in map_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMapRange_in_map_test_go - 2019.06.21 at 11h 08m 09s.xml">
-      <configuration name="TestMapRange in map_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMapWithFunValue_in_map_test_go - 2019.06.21 at 11h 17m 39s.xml">
-      <configuration name="TestMapWithFunValue in map_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMapSet_in_map_test_go - 2019.06.21 at 11h 20m 07s.xml">
-      <configuration name="TestMapSet in map_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestMapSet_in_map_test_go - 2019.06.21 at 11h 24m 45s.xml">
       <configuration name="TestMapSet in map_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -303,9 +291,21 @@
     <history-entry file="TestStringInit_in_string_test_go - 2019.06.21 at 11h 47m 59s.xml">
       <configuration name="TestStringInit in string_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestStringFunc_in_string_test_go - 2019.06.24 at 10h 47m 21s.xml">
+      <configuration name="TestStringFunc in string_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestStringFunc_in_string_test_go - 2019.06.24 at 10h 48m 47s.xml">
+      <configuration name="TestStringFunc in string_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestStringVert_in_string_test_go - 2019.06.24 at 10h 50m 05s.xml">
+      <configuration name="TestStringVert in string_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestStringVert_in_string_test_go - 2019.06.24 at 10h 51m 37s.xml">
+      <configuration name="TestStringVert in string_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="703" extended-state="7" />
+    <frame x="-6" y="-6" width="1293" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -462,8 +462,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch10/string_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="207">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#19#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
