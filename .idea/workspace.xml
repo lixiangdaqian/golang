@@ -75,8 +75,8 @@
       <file leaf-file-name="string_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch10/string_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="e#19#51#0" expanded="true" />
               </folding>
@@ -204,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestStringVert in string_test.go">
+  <component name="RunManager" selected="Go Test.TestStringFunc in string_test.go">
     <configuration name="TestMapSet in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
       <working_directory value="$PROJECT_DIR$/src/ch9" />
@@ -264,8 +264,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestStringVert in string_test.go" />
         <item itemvalue="Go Test.TestStringFunc in string_test.go" />
+        <item itemvalue="Go Test.TestStringVert in string_test.go" />
         <item itemvalue="Go Test.TestStringInit in string_test.go" />
         <item itemvalue="Go Test.TestMapSet in map_test.go" />
         <item itemvalue="Go Test.TestMapWithFunValue in map_test.go" />
@@ -273,12 +273,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMapSet_in_map_test_go - 2019.06.21 at 11h 24m 45s.xml">
-      <configuration name="TestMapSet in map_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMapSet_in_map_test_go - 2019.06.21 at 11h 25m 18s.xml">
-      <configuration name="TestMapSet in map_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestStringInit_in_string_test_go - 2019.06.21 at 11h 45m 03s.xml">
       <configuration name="TestStringInit in string_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -302,6 +296,12 @@
     </history-entry>
     <history-entry file="TestStringVert_in_string_test_go - 2019.06.24 at 10h 51m 37s.xml">
       <configuration name="TestStringVert in string_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestStringVert_in_string_test_go - 2019.06.24 at 10h 52m 11s.xml">
+      <configuration name="TestStringVert in string_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestStringFunc_in_string_test_go - 2019.06.24 at 10h 59m 53s.xml">
+      <configuration name="TestStringFunc in string_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -462,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch10/string_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="e#19#51#0" expanded="true" />
           </folding>

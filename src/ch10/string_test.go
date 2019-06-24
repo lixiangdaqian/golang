@@ -16,6 +16,8 @@ func TestStringInit(t *testing.T) {
 
 func TestStringFunc(t *testing.T) {
 	s := "a,b,c,d,e,f,g"
+	repect := strings.Repeat(s, 2)
+	t.Log("repect:"+repect)
 	//按 , 隔开，返回切片
 	parts := strings.Split(s, ",")
 	t.Log(parts)
