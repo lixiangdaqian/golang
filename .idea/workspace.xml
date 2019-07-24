@@ -15,6 +15,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="fibonacci_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch2/fibonacci_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="6" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="arr_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch6/arr_test.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -29,15 +38,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch8/map_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interface2_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="interface2_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch15/interface2_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="420">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="e#25#53#0" expanded="true" />
               </folding>
@@ -75,11 +75,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="string_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch10/string_test.go">
+      <file leaf-file-name="error_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch16/error_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="300">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <element signature="e#20#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/ch14/extention.go" />
         <option value="$PROJECT_DIR$/src/ch14/extention_test.go" />
         <option value="$PROJECT_DIR$/src/ch15/interface2_test.go" />
+        <option value="$PROJECT_DIR$/src/ch16/error_test.go" />
       </list>
     </option>
   </component>
@@ -191,7 +195,13 @@
               <item name="golang" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch15" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch16" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,16 +234,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestNullInter in ch15">
-    <configuration name="TestDeffer in funcAdv_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestError in ch16">
+    <configuration name="TestError in ch16" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch12" />
+      <working_directory value="$PROJECT_DIR$/src/ch16" />
       <go_parameters value="-i" />
       <framework value="gotest" />
-      <kind value="FILE" />
+      <kind value="PACKAGE" />
+      <package value="ch16" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch12/funcAdv_test.go" />
-      <pattern value="^TestDeffer$" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestError$" />
     </configuration>
     <configuration name="TestNullInter in ch15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
@@ -277,52 +288,52 @@
       <filePath value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.TestDeffer in funcAdv_test.go" />
       <item itemvalue="Go Test.TestTypeInter in interface_test.go" />
       <item itemvalue="Go Test.TestTimeSpend in interface_test.go" />
       <item itemvalue="Go Test.go test ch14" />
       <item itemvalue="Go Test.TestNullInter in ch15" />
+      <item itemvalue="Go Test.TestError in ch16" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestError in ch16" />
         <item itemvalue="Go Test.TestNullInter in ch15" />
         <item itemvalue="Go Test.go test ch14" />
         <item itemvalue="Go Test.TestTimeSpend in interface_test.go" />
         <item itemvalue="Go Test.TestTypeInter in interface_test.go" />
-        <item itemvalue="Go Test.TestDeffer in funcAdv_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTimeSpend_in_interface_test_go - 2019.06.24 at 17h 05m 25s.xml">
-      <configuration name="TestTimeSpend in interface_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestError_in_ch16 - 2019.07.24 at 16h 00m 13s.xml">
+      <configuration name="TestError in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_ch14 - 2019.07.24 at 15h 03m 34s.xml">
-      <configuration name="go test ch14" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestError_in_ch16 - 2019.07.24 at 16h 01m 04s.xml">
+      <configuration name="TestError in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_ch14 - 2019.07.24 at 15h 05m 00s.xml">
-      <configuration name="go test ch14" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestError_in_ch16 - 2019.07.24 at 16h 01m 49s.xml">
+      <configuration name="TestError in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_ch14 - 2019.07.24 at 15h 06m 25s.xml">
-      <configuration name="go test ch14" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestError_in_ch16 - 2019.07.24 at 16h 01m 57s.xml">
+      <configuration name="TestError in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestNullInter_in_ch15 - 2019.07.24 at 15h 31m 21s.xml">
-      <configuration name="TestNullInter in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestError_in_ch16 - 2019.07.24 at 16h 03m 28s.xml">
+      <configuration name="TestError in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestNullInter_in_ch15 - 2019.07.24 at 15h 31m 47s.xml">
-      <configuration name="TestNullInter in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestError_in_ch16 - 2019.07.24 at 16h 03m 45s.xml">
+      <configuration name="TestError in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestNullInter_in_ch15 - 2019.07.24 at 15h 33m 55s.xml">
-      <configuration name="TestNullInter in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestError_in_ch16 - 2019.07.24 at 16h 04m 16s.xml">
+      <configuration name="TestError in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestNullInter_in_ch15 - 2019.07.24 at 15h 34m 13s.xml">
-      <configuration name="TestNullInter in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestError_in_ch16 - 2019.07.24 at 16h 04m 25s.xml">
+      <configuration name="TestError in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestNullInter_in_ch15 - 2019.07.24 at 15h 34m 33s.xml">
-      <configuration name="TestNullInter in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestError_in_ch16 - 2019.07.24 at 16h 04m 32s.xml">
+      <configuration name="TestError in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestNullInter_in_ch15 - 2019.07.24 at 15h 34m 41s.xml">
-      <configuration name="TestNullInter in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestError_in_ch16 - 2019.07.24 at 16h 06m 32s.xml">
+      <configuration name="TestError in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -359,7 +370,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -510,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch2/fibonacci_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch8/map_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -592,10 +596,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch15/interface2_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="420">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="e#25#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch2/fibonacci_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="6" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch16/error_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#20#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
