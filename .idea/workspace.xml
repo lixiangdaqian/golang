@@ -60,11 +60,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goroutine_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="goroutine_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch19/goroutine_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="320">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#24#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sync_lock_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch20/sync_lock_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="e#24#53#0" expanded="true" />
               </folding>
@@ -135,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/ch18/my_package/my_package_test.go" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/ch19/goroutine_test.go" />
+        <option value="$PROJECT_DIR$/src/ch20/sync_lock_test.go" />
       </list>
     </option>
   </component>
@@ -180,7 +193,7 @@
               <item name="golang" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch19" type="462c0819:PsiDirectoryNode" />
+              <item name="ch20" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestGorutine in ch19">
+  <component name="RunManager" selected="Go Test.TestLockThreadSafeWG in ch20">
     <configuration name="TestGorutine in ch19" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
       <working_directory value="$PROJECT_DIR$/src/ch19" />
@@ -231,95 +244,96 @@
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestGorutine$" />
     </configuration>
-    <configuration name="TestPackage in my_package" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLock in ch20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/my_package" />
+      <working_directory value="$PROJECT_DIR$/src/ch20" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="my_package" />
+      <package value="ch20" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestPackage$" />
+      <pattern value="^TestLock$" />
     </configuration>
-    <configuration name="TestPanic in ch17" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLockThreadSafe in ch20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch17" />
+      <working_directory value="$PROJECT_DIR$/src/ch20" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch17" />
+      <package value="ch20" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestPanic$" />
+      <pattern value="^TestLockThreadSafe$" />
     </configuration>
-    <configuration name="go test ch17" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLockThreadSafeWG in ch20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch17" />
+      <working_directory value="$PROJECT_DIR$/src/ch20" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch17" />
+      <package value="ch20" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLockThreadSafeWG$" />
     </configuration>
-    <configuration name="go test my_package" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test ch20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/my_package" />
+      <working_directory value="$PROJECT_DIR$/src/ch20" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="my_package" />
+      <package value="ch20" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.TestPanic in ch17" />
-      <item itemvalue="Go Test.go test ch17" />
-      <item itemvalue="Go Test.TestPackage in my_package" />
-      <item itemvalue="Go Test.go test my_package" />
       <item itemvalue="Go Test.TestGorutine in ch19" />
+      <item itemvalue="Go Test.TestLock in ch20" />
+      <item itemvalue="Go Test.TestLockThreadSafe in ch20" />
+      <item itemvalue="Go Test.go test ch20" />
+      <item itemvalue="Go Test.TestLockThreadSafeWG in ch20" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestLockThreadSafeWG in ch20" />
+        <item itemvalue="Go Test.TestLockThreadSafe in ch20" />
+        <item itemvalue="Go Test.TestLock in ch20" />
+        <item itemvalue="Go Test.go test ch20" />
         <item itemvalue="Go Test.TestGorutine in ch19" />
-        <item itemvalue="Go Test.TestPackage in my_package" />
-        <item itemvalue="Go Test.go test my_package" />
-        <item itemvalue="Go Test.go test ch17" />
-        <item itemvalue="Go Test.TestPanic in ch17" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 48m 47s.xml">
-      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLockThreadSafe_in_ch20 - 2019.07.25 at 16h 24m 27s.xml">
+      <configuration name="TestLockThreadSafe in ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 49m 21s.xml">
-      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLock_in_ch20 - 2019.07.25 at 16h 24m 50s.xml">
+      <configuration name="TestLock in ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 05m 25s.xml">
-      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLock_in_ch20 - 2019.07.25 at 16h 26m 36s.xml">
+      <configuration name="TestLock in ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 06m 00s.xml">
-      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLock_in_ch20 - 2019.07.25 at 16h 26m 41s.xml">
+      <configuration name="TestLock in ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 06m 36s.xml">
-      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLockThreadSafe_in_ch20 - 2019.07.25 at 16h 26m 55s.xml">
+      <configuration name="TestLockThreadSafe in ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 08m 10s.xml">
-      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLockThreadSafe_in_ch20 - 2019.07.25 at 16h 27m 00s.xml">
+      <configuration name="TestLockThreadSafe in ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 08m 17s.xml">
-      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLockThreadSafeWG_in_ch20 - 2019.07.25 at 16h 28m 20s.xml">
+      <configuration name="TestLockThreadSafeWG in ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 08m 22s.xml">
-      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLockThreadSafeWG_in_ch20 - 2019.07.25 at 16h 28m 24s.xml">
+      <configuration name="TestLockThreadSafeWG in ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 08m 26s.xml">
-      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLockThreadSafeWG_in_ch20 - 2019.07.25 at 16h 30m 18s.xml">
+      <configuration name="TestLockThreadSafeWG in ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 08m 32s.xml">
-      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLockThreadSafeWG_in_ch20 - 2019.07.25 at 16h 30m 40s.xml">
+      <configuration name="TestLockThreadSafeWG in ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -378,7 +392,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -678,8 +692,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch19/goroutine_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="320">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch20/sync_lock_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
           </folding>
