@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/ch18/serial.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/ch18/serial.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch18/serial/my_package.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch18/serial/my_package.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my_package/my_package_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch18/my_package/my_package_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+            <state relative-caret-position="80">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goroutine_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch19/goroutine_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="e#24#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/ch18/serial/my_package.go" />
         <option value="$PROJECT_DIR$/src/ch18/my_package/my_package_test.go" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/ch19/goroutine_test.go" />
       </list>
     </option>
   </component>
@@ -173,33 +180,7 @@
               <item name="golang" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch16" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch18" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch18" type="462c0819:PsiDirectoryNode" />
-              <item name="my_package" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="depend_package" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="depend_package" type="462c0819:PsiDirectoryNode" />
-              <item name="gopher-lua-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ch19" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,17 +219,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestPackage in my_package">
-    <configuration name="TestError in ch16" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestGorutine in ch19">
+    <configuration name="TestGorutine in ch19" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch16" />
+      <working_directory value="$PROJECT_DIR$/src/ch19" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch16" />
+      <package value="ch19" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestError$" />
+      <pattern value="^TestGorutine$" />
     </configuration>
     <configuration name="TestPackage in my_package" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
@@ -293,65 +274,65 @@
       <filePath value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.TestError in ch16" />
       <item itemvalue="Go Test.TestPanic in ch17" />
       <item itemvalue="Go Test.go test ch17" />
       <item itemvalue="Go Test.TestPackage in my_package" />
       <item itemvalue="Go Test.go test my_package" />
+      <item itemvalue="Go Test.TestGorutine in ch19" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestGorutine in ch19" />
         <item itemvalue="Go Test.TestPackage in my_package" />
         <item itemvalue="Go Test.go test my_package" />
         <item itemvalue="Go Test.go test ch17" />
         <item itemvalue="Go Test.TestPanic in ch17" />
-        <item itemvalue="Go Test.TestError in ch16" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 27m 09s.xml">
-      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 31m 48s.xml">
-      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 32m 24s.xml">
-      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 46m 36s.xml">
-      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 46m 49s.xml">
-      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 47m 04s.xml">
-      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_my_package - 2019.07.25 at 14h 47m 35s.xml">
-      <configuration name="go test my_package" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 48m 33s.xml">
-      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 48m 47s.xml">
       <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 49m 21s.xml">
       <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 05m 25s.xml">
+      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 06m 00s.xml">
+      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 06m 36s.xml">
+      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 08m 10s.xml">
+      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 08m 17s.xml">
+      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 08m 22s.xml">
+      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 08m 26s.xml">
+      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGorutine_in_ch19 - 2019.07.25 at 16h 08m 32s.xml">
+      <configuration name="TestGorutine in ch19" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.165625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.165625" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40531915" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40531915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -690,8 +671,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch19/goroutine_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
