@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="" />
+    <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ch1/hello_world.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch1/hello_world.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch10/string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch10/string_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11/func_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11/func_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch12/funcAdv_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12/funcAdv_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch13/interface_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13/interface_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch14/extention_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch14/extention_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch16/error_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch16/error_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch17/panic_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch17/panic_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch18/my_package/my_package_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch18/my_package/my_package_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch18/serial/my_package.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch18/serial/my_package.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch19/goroutine_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch19/goroutine_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch2/const_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2/const_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch2/fibonacci_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2/fibonacci_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch2/try_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2/try_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch20/sync_lock_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch20/sync_lock_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch3/type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3/type_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch4/compute_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4/compute_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch5/loop_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5/loop_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6/arr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6/arr_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch7/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch7/slice_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch8/map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch8/map_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch9/map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch9/map_test.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/src/ch16/error_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="69" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#20#51#0" expanded="true" />
               </folding>
@@ -30,8 +53,8 @@
       <file leaf-file-name="my_package.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch18/serial/my_package.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#16#43#0" expanded="true" />
               </folding>
@@ -42,8 +65,8 @@
       <file leaf-file-name="my_package_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch18/my_package/my_package_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="66" lean-forward="true" selection-start-line="15" selection-end-line="16" selection-end-column="66" />
+            <state relative-caret-position="340">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#25#54#0" expanded="true" />
               </folding>
@@ -55,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -64,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/ch19/goroutine_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#24#53#0" expanded="true" />
               </folding>
@@ -72,13 +95,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sync_lock_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sync_lock_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch20/sync_lock_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="415">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
                 <element signature="e#24#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="channel_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch21/channel_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="e#22#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/depend_package/gopher-lua-master/opcode.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -148,6 +183,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/ch19/goroutine_test.go" />
         <option value="$PROJECT_DIR$/src/ch20/sync_lock_test.go" />
+        <option value="$PROJECT_DIR$/src/ch21/channel_test.go" />
       </list>
     </option>
   </component>
@@ -160,11 +196,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="2586" />
-    <option name="height" value="1406" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="445" />
+    <option name="y" value="63" />
+    <option name="width" value="1433" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -193,7 +229,7 @@
               <item name="golang" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch20" type="462c0819:PsiDirectoryNode" />
+              <item name="ch21" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,17 +268,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestLockThreadSafeWG in ch20">
-    <configuration name="TestGorutine in ch19" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestChannel in ch21">
+    <configuration name="TestChannel in ch21" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch19" />
+      <working_directory value="$PROJECT_DIR$/src/ch21" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch19" />
+      <package value="ch21" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestGorutine$" />
+      <pattern value="^TestChannel$" />
     </configuration>
     <configuration name="TestLock in ch20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
@@ -288,65 +324,65 @@
       <filePath value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.TestGorutine in ch19" />
       <item itemvalue="Go Test.TestLock in ch20" />
       <item itemvalue="Go Test.TestLockThreadSafe in ch20" />
       <item itemvalue="Go Test.go test ch20" />
       <item itemvalue="Go Test.TestLockThreadSafeWG in ch20" />
+      <item itemvalue="Go Test.TestChannel in ch21" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestLockThreadSafeWG in ch20" />
-        <item itemvalue="Go Test.TestLockThreadSafe in ch20" />
-        <item itemvalue="Go Test.TestLock in ch20" />
+        <item itemvalue="Go Test.TestChannel in ch21" />
         <item itemvalue="Go Test.go test ch20" />
-        <item itemvalue="Go Test.TestGorutine in ch19" />
+        <item itemvalue="Go Test.TestLockThreadSafe in ch20" />
+        <item itemvalue="Go Test.TestLockThreadSafeWG in ch20" />
+        <item itemvalue="Go Test.TestLock in ch20" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLockThreadSafe_in_ch20 - 2019.07.25 at 16h 24m 27s.xml">
+    <history-entry file="TestLockThreadSafeWG_in_ch20 - 2019.07.25 at 16h 32m 45s.xml">
+      <configuration name="TestLockThreadSafeWG in ch20" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLockThreadSafe_in_ch20 - 2019.07.25 at 16h 35m 39s.xml">
       <configuration name="TestLockThreadSafe in ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLock_in_ch20 - 2019.07.25 at 16h 24m 50s.xml">
-      <configuration name="TestLock in ch20" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_ch20 - 2019.07.25 at 16h 35m 48s.xml">
+      <configuration name="go test ch20" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLock_in_ch20 - 2019.07.25 at 16h 26m 36s.xml">
-      <configuration name="TestLock in ch20" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestChannel_in_ch21 - 2019.07.25 at 18h 18m 47s.xml">
+      <configuration name="TestChannel in ch21" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLock_in_ch20 - 2019.07.25 at 16h 26m 41s.xml">
-      <configuration name="TestLock in ch20" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestChannel_in_ch21 - 2019.07.25 at 18h 22m 56s.xml">
+      <configuration name="TestChannel in ch21" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLockThreadSafe_in_ch20 - 2019.07.25 at 16h 26m 55s.xml">
-      <configuration name="TestLockThreadSafe in ch20" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestChannel_in_ch21 - 2019.07.25 at 18h 24m 21s.xml">
+      <configuration name="TestChannel in ch21" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLockThreadSafe_in_ch20 - 2019.07.25 at 16h 27m 00s.xml">
-      <configuration name="TestLockThreadSafe in ch20" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestChannel_in_ch21 - 2019.07.25 at 18h 24m 54s.xml">
+      <configuration name="TestChannel in ch21" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLockThreadSafeWG_in_ch20 - 2019.07.25 at 16h 28m 20s.xml">
-      <configuration name="TestLockThreadSafeWG in ch20" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestChannel_in_ch21 - 2019.07.25 at 18h 28m 09s.xml">
+      <configuration name="TestChannel in ch21" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLockThreadSafeWG_in_ch20 - 2019.07.25 at 16h 28m 24s.xml">
-      <configuration name="TestLockThreadSafeWG in ch20" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestChannel_in_ch21 - 2019.07.25 at 18h 32m 04s.xml">
+      <configuration name="TestChannel in ch21" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLockThreadSafeWG_in_ch20 - 2019.07.25 at 16h 30m 18s.xml">
-      <configuration name="TestLockThreadSafeWG in ch20" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestLockThreadSafeWG_in_ch20 - 2019.07.25 at 16h 30m 40s.xml">
-      <configuration name="TestLockThreadSafeWG in ch20" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestChannel_in_ch21 - 2019.07.25 at 18h 33m 39s.xml">
+      <configuration name="TestChannel in ch21" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="445" y="63" width="1433" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.165625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22441779" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40531915" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32090396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -646,7 +682,7 @@
     <entry file="file://$PROJECT_DIR$/src/ch16/error_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="69" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#20#51#0" expanded="true" />
           </folding>
@@ -655,8 +691,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch18/serial/my_package.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="220">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#16#43#0" expanded="true" />
           </folding>
@@ -669,14 +705,14 @@
     <entry file="file://$PROJECT_DIR$/src/depend_package/gopher-lua-master/opcode.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch18/my_package/my_package_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="66" lean-forward="true" selection-start-line="15" selection-end-line="16" selection-end-column="66" />
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#25#54#0" expanded="true" />
           </folding>
@@ -686,26 +722,43 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch19/goroutine_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Go/src/sync/waitgroup.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch20/sync_lock_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="415">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch21/channel_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="e#22#50#0" expanded="true" />
           </folding>
         </state>
       </provider>

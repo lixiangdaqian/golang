@@ -9,7 +9,7 @@ import (
 /*func init(){
 	fmt.Print("init1")
 }*/
-func TestPackage(t *testing.T)  {
+func TestPackage(t *testing.T) {
 	t.Log(serial.Fibnacci(10))
 }
 

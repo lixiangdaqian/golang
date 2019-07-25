@@ -1,10 +1,10 @@
 package func_test
 
 import (
-	"testing"
-	"math/rand"
-	"time"
 	"fmt"
+	"math/rand"
+	"testing"
+	"time"
 )
 
 func TestMultiRetFuc(t *testing.T) {
@@ -36,7 +36,7 @@ func timeSpend(inner func(op int) int) func(op int) int {
 	}
 }
 
-func TestRandFunc(t *testing.T)  {
+func TestRandFunc(t *testing.T) {
 	rand.Seed(time.Now().UnixNano())
 	for i := 0; i < 10; i++ {
 		x := rand.Intn(100)

@@ -6,14 +6,13 @@ import (
 )
 
 type Pet struct {
-
 }
 
-func (p *Pet)Speck()  {
+func (p *Pet) Speck() {
 	fmt.Print("...")
 }
 
-func (p *Pet)SpeckTo(somebody string)  {
+func (p *Pet) SpeckTo(somebody string) {
 	p.Speck()
 	fmt.Println(" ", somebody)
 }
@@ -22,12 +21,12 @@ type Dog struct {
 	p *Pet
 }
 
-func (d *Dog)Speck()  {
+func (d *Dog) Speck() {
 	d.p.Speck()
 	fmt.Print("wang")
 }
 
-func (d *Dog)SpeckTo(somebody string)  {
+func (d *Dog) SpeckTo(somebody string) {
 	d.p.SpeckTo(somebody)
 }
 
@@ -36,7 +35,7 @@ type DogNew struct {
 	Pet
 }
 
-func TestDog(t *testing.T)  {
+func TestDog(t *testing.T) {
 	dog := new(DogNew)
 	dog.SpeckTo("haha")
 }

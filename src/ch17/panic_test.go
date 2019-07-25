@@ -1,12 +1,12 @@
 package panic_test
 
 import (
-	"testing"
-	"fmt"
 	"errors"
+	"fmt"
+	"testing"
 )
 
-func TestPanic(t *testing.T)  {
+func TestPanic(t *testing.T) {
 	fmt.Println("haha")
 	//os.Exit(10)
 	defer func() {
