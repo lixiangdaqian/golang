@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ch1/hello_world.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch1/hello_world.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch10/string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch10/string_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11/func_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11/func_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch12/funcAdv_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12/funcAdv_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch13/interface_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13/interface_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch14/extention_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch14/extention_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch16/error_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch16/error_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch17/panic_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch17/panic_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch18/my_package/my_package_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch18/my_package/my_package_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch18/serial/my_package.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch18/serial/my_package.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch19/goroutine_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch19/goroutine_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2/const_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2/const_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2/fibonacci_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2/fibonacci_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2/try_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2/try_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch20/sync_lock_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch20/sync_lock_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch3/type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3/type_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4/compute_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4/compute_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch5/loop_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch5/loop_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch6/arr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6/arr_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch7/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch7/slice_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch8/map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch8/map_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch9/map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch9/map_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="60">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -107,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="channel_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="channel_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch21/channel_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="220">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#22#50#0" expanded="true" />
               </folding>
@@ -180,10 +159,10 @@
         <option value="$PROJECT_DIR$/src/my_package/my_package_test.go" />
         <option value="$PROJECT_DIR$/src/ch18/serial/my_package.go" />
         <option value="$PROJECT_DIR$/src/ch18/my_package/my_package_test.go" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/ch19/goroutine_test.go" />
         <option value="$PROJECT_DIR$/src/ch20/sync_lock_test.go" />
         <option value="$PROJECT_DIR$/src/ch21/channel_test.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -719,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch19/goroutine_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -755,11 +727,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch21/channel_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="220">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#22#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
