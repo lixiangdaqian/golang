@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/ch18.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/ch18/serial.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch18/serial/my_package.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/my_package/my_package_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/ch18/serial.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/ch18/serial.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch18/serial/my_package.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch18/serial/my_package.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_package/my_package_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch18/my_package/my_package_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,17 +36,46 @@
       <file leaf-file-name="my_package.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch18/serial/my_package.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="200">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#16#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_package_test.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/my_package/my_package_test.go">
+      <file leaf-file-name="my_package_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch18/my_package/my_package_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+            <state relative-caret-position="320">
+              <caret line="16" column="66" lean-forward="true" selection-start-line="15" selection-end-line="16" selection-end-column="66" />
+              <folding>
+                <element signature="e#25#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mathlib.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/depend_package/gopher-lua-master/mathlib.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="opcode.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/depend_package/gopher-lua-master/opcode.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -95,8 +124,10 @@
         <option value="$PROJECT_DIR$/src/ch17/panic_test.go" />
         <option value="$PROJECT_DIR$/src/ch18/my_Package.go" />
         <option value="$PROJECT_DIR$/src/ch18/my_package_test.go" />
-        <option value="$PROJECT_DIR$/src/ch18/serial/my_package.go" />
         <option value="$PROJECT_DIR$/src/my_package/my_package_test.go" />
+        <option value="$PROJECT_DIR$/src/ch18/serial/my_package.go" />
+        <option value="$PROJECT_DIR$/src/ch18/my_package/my_package_test.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -131,6 +162,11 @@
             <path>
               <item name="golang" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -150,13 +186,20 @@
               <item name="golang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ch18" type="462c0819:PsiDirectoryNode" />
-              <item name="serial" type="462c0819:PsiDirectoryNode" />
+              <item name="my_package" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="golang" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="my_package" type="462c0819:PsiDirectoryNode" />
+              <item name="depend_package" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="depend_package" type="462c0819:PsiDirectoryNode" />
+              <item name="gopher-lua-master" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,17 +250,6 @@
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestError$" />
     </configuration>
-    <configuration name="TestNullInter in ch15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch15" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch15" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestNullInter$" />
-    </configuration>
     <configuration name="TestPackage in my_package" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
       <working_directory value="$PROJECT_DIR$/src/my_package" />
@@ -250,45 +282,34 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go test my_package" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$/src/my_package" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="my_package" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+    </configuration>
     <list>
-      <item itemvalue="Go Test.TestNullInter in ch15" />
       <item itemvalue="Go Test.TestError in ch16" />
       <item itemvalue="Go Test.TestPanic in ch17" />
       <item itemvalue="Go Test.go test ch17" />
       <item itemvalue="Go Test.TestPackage in my_package" />
+      <item itemvalue="Go Test.go test my_package" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.TestPackage in my_package" />
+        <item itemvalue="Go Test.go test my_package" />
         <item itemvalue="Go Test.go test ch17" />
         <item itemvalue="Go Test.TestPanic in ch17" />
         <item itemvalue="Go Test.TestError in ch16" />
-        <item itemvalue="Go Test.TestNullInter in ch15" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPanic_in_ch17 - 2019.07.24 at 16h 21m 33s.xml">
-      <configuration name="TestPanic in ch17" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPanic_in_ch17 - 2019.07.24 at 16h 21m 44s.xml">
-      <configuration name="TestPanic in ch17" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPanic_in_ch17 - 2019.07.24 at 16h 22m 11s.xml">
-      <configuration name="TestPanic in ch17" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPanic_in_ch17 - 2019.07.24 at 16h 23m 14s.xml">
-      <configuration name="TestPanic in ch17" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPanic_in_ch17 - 2019.07.24 at 16h 25m 16s.xml">
-      <configuration name="TestPanic in ch17" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPanic_in_ch17 - 2019.07.24 at 16h 25m 59s.xml">
-      <configuration name="TestPanic in ch17" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_ch17 - 2019.07.25 at 14h 16m 37s.xml">
-      <configuration name="go test ch17" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 27m 09s.xml">
       <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -296,6 +317,27 @@
       <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 32m 24s.xml">
+      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 46m 36s.xml">
+      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 46m 49s.xml">
+      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 47m 04s.xml">
+      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_my_package - 2019.07.25 at 14h 47m 35s.xml">
+      <configuration name="go test my_package" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 48m 33s.xml">
+      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 48m 47s.xml">
+      <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPackage_in_my_package - 2019.07.25 at 14h 49m 21s.xml">
       <configuration name="TestPackage in my_package" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -618,15 +660,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch18/serial/my_package.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="200">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#16#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/my_package/my_package_test.go">
+    <entry file="file://$PROJECT_DIR$/src/depend_package/gopher-lua-master/mathlib.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/depend_package/gopher-lua-master/opcode.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        <state relative-caret-position="380">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch18/my_package/my_package_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="66" lean-forward="true" selection-start-line="15" selection-end-line="16" selection-end-column="66" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,15 @@
 package serial
 
-import "errors"
-
+import (
+	"errors"
+	"fmt"
+)
+func init(){
+	fmt.Println("init1")
+}
+func init(){
+	fmt.Println("init2")
+}
 var LessError = errors.New("input must less than 20 and more than 1")
 func Fibnacci(end int)([]int,error){
 	if end >= 20 || end <= 1 {
