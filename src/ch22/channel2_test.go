@@ -48,7 +48,7 @@ func TestSelect(t *testing.T) {
 	fibonacci(c, quit)
 }
 
-func TestTicker(t *testing.T)  {
+func TestTicker(t *testing.T) {
 	ticker := time.NewTicker(time.Millisecond * 500)
 	go func() {
 		for t := range ticker.C {
@@ -56,4 +56,15 @@ func TestTicker(t *testing.T)  {
 		}
 	}()
 	time.Sleep(time.Second * 5)
+}
+
+func worker(done chan bool) {
+	done <- true
+	time.Sleep(time.Second)
+}
+
+func TestWorker(t *testing.T)  {
+	done := make(chan bool, 1)
+	worker(done)
+	<-done
 }

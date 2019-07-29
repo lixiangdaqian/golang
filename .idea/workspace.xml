@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1867e6d-fe4c-4ee8-b5b5-d940641b9860" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch22/channel2_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch22/channel2_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,8 +101,8 @@
       <file leaf-file-name="channel2_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch22/channel2_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+            <state relative-caret-position="455">
+              <caret line="68" column="4" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
               <folding>
                 <element signature="e#23#59#0" expanded="true" />
               </folding>
@@ -188,7 +188,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="445" />
     <option name="y" value="63" />
     <option name="width" value="1433" />
@@ -260,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestTicker in ch22">
+  <component name="RunManager" selected="Go Test.TestWorker in ch22">
     <configuration name="TestChannel in ch21" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
       <working_directory value="$PROJECT_DIR$/src/ch21" />
@@ -305,55 +305,35 @@
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestTicker$" />
     </configuration>
-    <configuration name="go test ch20" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWorker in ch22" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/ch20" />
+      <working_directory value="$PROJECT_DIR$/src/ch22" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch20" />
+      <package value="ch22" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestWorker$" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.go test ch20" />
       <item itemvalue="Go Test.TestChannel in ch21" />
       <item itemvalue="Go Test.TestChannel in ch22" />
       <item itemvalue="Go Test.TestSelect in ch22" />
       <item itemvalue="Go Test.TestTicker in ch22" />
+      <item itemvalue="Go Test.TestWorker in ch22" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestWorker in ch22" />
         <item itemvalue="Go Test.TestTicker in ch22" />
         <item itemvalue="Go Test.TestSelect in ch22" />
         <item itemvalue="Go Test.TestChannel in ch22" />
         <item itemvalue="Go Test.TestChannel in ch21" />
-        <item itemvalue="Go Test.go test ch20" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSelect_in_ch22 - 2019.07.29 at 17h 14m 13s.xml">
-      <configuration name="TestSelect in ch22" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSelect_in_ch22 - 2019.07.29 at 17h 24m 25s.xml">
-      <configuration name="TestSelect in ch22" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTicker_in_ch22 - 2019.07.29 at 17h 29m 06s.xml">
-      <configuration name="TestTicker in ch22" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTicker_in_ch22 - 2019.07.29 at 17h 30m 04s.xml">
-      <configuration name="TestTicker in ch22" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTicker_in_ch22 - 2019.07.29 at 17h 30m 31s.xml">
-      <configuration name="TestTicker in ch22" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTicker_in_ch22 - 2019.07.29 at 17h 31m 13s.xml">
-      <configuration name="TestTicker in ch22" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTicker_in_ch22 - 2019.07.29 at 17h 31m 36s.xml">
-      <configuration name="TestTicker in ch22" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestTicker_in_ch22 - 2019.07.29 at 17h 32m 15s.xml">
       <configuration name="TestTicker in ch22" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -362,6 +342,27 @@
     </history-entry>
     <history-entry file="TestTicker_in_ch22 - 2019.07.29 at 17h 33m 05s.xml">
       <configuration name="TestTicker in ch22" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTicker_in_ch22 - 2019.07.29 at 17h 33m 42s.xml">
+      <configuration name="TestTicker in ch22" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestWorker_in_ch22 - 2019.07.29 at 17h 39m 04s.xml">
+      <configuration name="TestWorker in ch22" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestWorker_in_ch22 - 2019.07.29 at 17h 39m 29s.xml">
+      <configuration name="TestWorker in ch22" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestWorker_in_ch22 - 2019.07.29 at 17h 39m 53s.xml">
+      <configuration name="TestWorker in ch22" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestWorker_in_ch22 - 2019.07.29 at 17h 40m 03s.xml">
+      <configuration name="TestWorker in ch22" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestWorker_in_ch22 - 2019.07.29 at 17h 40m 13s.xml">
+      <configuration name="TestWorker in ch22" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestWorker_in_ch22 - 2019.07.29 at 17h 40m 35s.xml">
+      <configuration name="TestWorker in ch22" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -420,7 +421,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -757,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch22/channel2_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        <state relative-caret-position="455">
+          <caret line="68" column="4" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
           <folding>
             <element signature="e#23#59#0" expanded="true" />
           </folding>
