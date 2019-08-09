@@ -14,6 +14,7 @@ func all_done() int{
 		go func(i int) {
 			ch <- i
 			fmt.Printf("all_done %d", i)
+			fmt.Println()
 		}(i)
 	}
 	finalRes := 0
