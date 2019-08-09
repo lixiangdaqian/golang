@@ -1,11 +1,12 @@
 package channel3_test
 
 import (
+	"fmt"
 	"sync"
 	"testing"
-	"fmt"
 )
 
+//channel关闭
 func DataProducer(ch chan int, wg *sync.WaitGroup) {
 	go func() {
 		for i := 0; i < 10; i++ {
@@ -18,10 +19,10 @@ func DataProducer(ch chan int, wg *sync.WaitGroup) {
 
 func DataProcesser(ch chan int, wg *sync.WaitGroup) {
 	go func() {
-		for{
-			if ret,ok := <-ch;ok {
+		for {
+			if ret, ok := <-ch; ok {
 				fmt.Println(ret)
-			}else {
+			} else {
 				fmt.Println("break")
 				break
 			}

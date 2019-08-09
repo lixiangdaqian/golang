@@ -63,7 +63,7 @@ func worker(done chan bool) {
 	time.Sleep(time.Second)
 }
 
-func TestWorker(t *testing.T)  {
+func TestWorker(t *testing.T) {
 	done := make(chan bool, 1)
 	worker(done)
 	<-done
