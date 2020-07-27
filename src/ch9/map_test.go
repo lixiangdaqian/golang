@@ -2,8 +2,8 @@ package ch9
 
 import "testing"
 
-func TestMapWithFunValue(t *testing.T)  {
-	m:=map[int]func(op int)int{}
+func TestMapWithFunValue(t *testing.T) {
+	m := map[int]func(op int) int{}
 	m[1] = func(op int) int {
 		return op
 	}
@@ -16,20 +16,20 @@ func TestMapWithFunValue(t *testing.T)  {
 	t.Log(m[1](2), m[2](2), m[3](2))
 }
 
-func TestMapSet(t *testing.T)  {
-	m:=map[string]bool{}
+func TestMapSet(t *testing.T) {
+	m := map[string]bool{}
 	m["lihai"] = true
 	m["wangmei"] = false
 	if m["lihai"] {
 		t.Log("存在")
-	}else {
+	} else {
 		t.Log("不存在")
 	}
 	t.Logf("len:%d", len(m))
 	delete(m, "lihai")
 	if m["lihai"] {
 		t.Log("存在")
-	}else {
+	} else {
 		t.Log("不存在")
 	}
 	t.Logf("len:%d", len(m))

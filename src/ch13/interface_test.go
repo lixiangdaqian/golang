@@ -1,9 +1,9 @@
 package ch13
 
 import (
+	"fmt"
 	"testing"
 	"time"
-	"fmt"
 )
 
 type Programmer interface {
@@ -11,14 +11,13 @@ type Programmer interface {
 }
 
 type GoPorgrammer struct {
-
 }
 
-func (goP *GoPorgrammer)WriteHelloWorld() string  {
+func (goP *GoPorgrammer) WriteHelloWorld() string {
 	return "fmt.Println(\"hello world\")"
 }
 
-func TestTypeInter(t *testing.T)  {
+func TestTypeInter(t *testing.T) {
 	//其实利用了动态语言的鸭子类型 duck type
 	var p Programmer
 	p = new(GoPorgrammer)
@@ -27,6 +26,7 @@ func TestTypeInter(t *testing.T)  {
 
 //别名命名
 type OpF func(op int) int
+
 func TimeSpend(inner OpF) OpF {
 	return func(n int) int {
 		start := time.Now()
@@ -36,12 +36,12 @@ func TimeSpend(inner OpF) OpF {
 	}
 }
 
-func TestTimeSpend(t *testing.T)  {
+func TestTimeSpend(t *testing.T) {
 	ts := TimeSpend(JustReturn)
 	ts(10)
 }
 
-func JustReturn(op int) int  {
+func JustReturn(op int) int {
 	time.Sleep(time.Second * 1)
 	return op
 }
